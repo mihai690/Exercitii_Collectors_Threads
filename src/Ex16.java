@@ -16,7 +16,7 @@ public class Ex16 {
          */
         Map<Integer, Long> map =
                 list.stream()
-                .collect(Collectors.groupingBy(s -> s.length(), Collectors.counting()));
+                .collect(Collectors.groupingBy(String::length, Collectors.counting()));
         System.out.println(map);
     }
 }
