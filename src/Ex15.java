@@ -4,6 +4,6 @@ public class Ex15 {
 
         Thread t = new Thread(r);
         t.start();
-        
+
     }
 }
